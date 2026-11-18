@@ -73,10 +73,4 @@ Create `.env` files using the environment variable names required by the applica
 
 Start the backend and frontend using their respective development scripts.
 
-## Future Improvements
 
-- Personalized preparation recommendations
-- Advanced interview analytics
-- More programming language support
-- Improved AI feedback and evaluation
-- Mock interview simulations

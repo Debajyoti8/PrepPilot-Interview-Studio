@@ -15,16 +15,16 @@ The platform brings together interview preparation resources, AI-assisted learni
 
 ## Technology Stack
 
-- Frontend: React, Vite, JavaScript
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Authentication: JWT
-- AI Integration: OpenRouter API
+- **Frontend:** React, Vite, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT
+- **AI Integration:** OpenRouter API
 
 ## Project Structure
 
 ```text
-PrepPilot/
+PrepPilot-Interview-Studio/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -46,31 +46,45 @@ PrepPilot/
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Debajyoti8/PrepPilot-Interview-Studio.git
+
 cd PrepPilot-Interview-Studio
 ```
 
-### 2. Install dependencies
+### 2. Install Dependencies
 
-Install frontend and backend dependencies separately:
+Install the frontend dependencies:
 
 ```bash
 cd frontend
 npm install
+```
 
+Install the backend dependencies:
+
+```bash
 cd ../backend
 npm install
 ```
 
-### 3. Configure environment variables
+### 3. Environment Configuration
 
-Create `.env` files using the environment variable names required by the application.
+Create `.env` files in the frontend and backend directories as required by the application.
 
-### 4. Run the application
+Configure the necessary environment variables, including database connection details, authentication secrets, and API keys.
+
+Never commit sensitive credentials to GitHub.
+
+### 4. Run the Application
 
 Start the backend and frontend using their respective development scripts.
 
+```bash
+npm run dev
+```
+
+Run the command from the appropriate project directory.
 
